@@ -1,0 +1,23 @@
+.taskDone {
+  text-decoration: line-through;
+  color: red;
+}
+
+.addTask, .inputTextName, .inputTextAssign, .panel-small{
+	margin: 0 auto;
+	text-align: center;
+	display: block;
+}
+
+table, th{
+	text-align: center;
+}
+.panel-small{
+	width: 600px;
+}
+.btn span.glyphicon {               
+    opacity: 0;             
+}
+.btn.active span.glyphicon {                
+    opacity: 1;             
+}
